@@ -69,5 +69,14 @@ Because John the Ripper comes pre-installed on Kali Linux, the cracking stage of
 | rockyou.txt |	Wordlist used to run a dictionary attack against the extracted PDF hash |
 
 
+Targeted pdf 1
+--
+Step 1 :- The starting point was a password-protected PDF that could not be opened without the correct password.
+Step 2 :-Open terminal and run command john to check if it is available or not?
+      ![Screenshot](
+
+
+
+
 
  
