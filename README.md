@@ -71,9 +71,31 @@ Because John the Ripper comes pre-installed on Kali Linux, the cracking stage of
 
 Targeted pdf 1
 --
+
 Step 1 :- The starting point was a password-protected PDF that could not be opened without the correct password.
+
+
 Step 2 :-Open terminal and run command john to check if it is available or not?
-      ![Screenshot](Screenshot2026-09-23 211902.png)
+      ![Screenshot](Screenshot-1.png)
+
+Step 3 :- Now nevigate to the directory to check where is the file located the command is 
+                       cd ~/Desktop
+                         ⬇️
+                         ls
+                         ⬇️
+                        cd ~/Desktop
+                          ⬇️
+                       pdf2john.pl 'My Locked PDF1.pdf' > hash.txt
+    Step 4 :- When this command gave output :-command not found then we run
+                            ⬇️
+              find /usr/share/john /opt/john -name 'pdf2john.pl' 2>/dev/null
+                              ⬇️
+                             cat hash.txt
+ Step 5 :- The resulting hash1.txt file contained the hash in the standard $pdf$... format, ready to be cracked.
+ Step 6 :- Now run command john hash.txt
+ 
+
+                            
 
 
 
