@@ -73,7 +73,7 @@ Targeted pdf 1
 --
 Step 1 :- The starting point was a password-protected PDF that could not be opened without the correct password.
 Step 2 :-Open terminal and run command john to check if it is available or not?
-      ![Screenshot](
+      ![Screenshot](Screenshot2026-09-23 211902.png)
 
 
 
