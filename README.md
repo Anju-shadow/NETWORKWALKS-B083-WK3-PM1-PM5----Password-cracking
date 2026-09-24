@@ -106,10 +106,43 @@ Step 3 :- Now nevigate to the directory to check where is the file located the c
 
 --
 Step 7 :- Now capture the other two embedded flags from each of pdf 2,pdf3 by repeating the same process .
-         ![Screenshot](Screenshot-2.png)
 
-         --
+Targeted pdf 2
+--
+   ![Screenshot](Screenshot-2.png)
+
+   Targeted pdf 3
+    --
    ![Screenshot](Screenshot-4.png)
+
+   ------------------------
+   <h2 align="center">🃏** Module 2 — Password Cracking with Networkwalks Tools
+------------
+     
+ 🛡️ **SAFE** -This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only.
+
+   ㊙️**Tools**-
+--
+- Networkwalks Hash-Calculator
+- Networkwalks Password Cracker
+  
+     Step 1 :- Opening Hash - calculator then I Uploaded the locked PDF to the Hash Calculator to get the hash.
+        The Hash Calculator supports MD5, SHA-1, SHA-256, SHA-384, and SHA-512 or extract a crackable hash from dedicated file .
+  
+![Screenshot](Screenshot-5.png)
+
+  Step 2 :- then paste that hash into the Password Cracker to find the password.
+
+  
+ Step 3 :- Now I  copied the hash lines extracted from file $pdf$..
+                  ![Screenshot](Screenshot-6.png)
+                  
+ Step 4 :- Now pasted the hash lines in Password Cracker to find the password 🗝️
+
+
+  Step 5:- Now moved to PDF 2 
+  Do the same process to find the password from hash lines.
+  ![Screenshot](
 
 
 
