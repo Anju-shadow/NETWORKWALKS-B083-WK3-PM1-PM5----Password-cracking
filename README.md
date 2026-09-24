@@ -110,22 +110,22 @@ Step 7 :- Now capture the other two embedded flags from each of pdf 2,pdf3 by re
 Targeted pdf 2
 --
    ![Screenshot](Screenshot-2.png)
+--
 
-   Targeted pdf 3
+ Targeted pdf 3 
     --
    ![Screenshot](Screenshot-4.png)
 
    ------------------------
-   <h2 align="center">🃏** Module 2 — Password Cracking with Networkwalks Tools
-------------
+   
+   <h2 align="center">🃏** Module 2 — Password Cracking with Networkwalks Tool
+------------------------------------------------------------------------------------------------------------------
+
 
 
      
- 🛡️ **SAFE** -_This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only._
+     🛡️ **SAFE** -_This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only._
  
---
-
-
    ㊙️**Tools**-
 --
 - Networkwalks Hash-Calculator
@@ -204,4 +204,7 @@ Password-cracking techniques should only ever be used against systems, files, or
   👤 Author
   -- 
   ANJU
+  Cybersecurity Intern BO83
+
+LinkedIn: www.linkedin.com/in/anju-84b8ba394
   
