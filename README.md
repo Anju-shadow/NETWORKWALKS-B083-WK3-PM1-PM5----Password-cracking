@@ -79,23 +79,37 @@ Step 2 :-Open terminal and run command john to check if it is available or not?
       ![Screenshot](Screenshot-1.png)
 
 Step 3 :- Now nevigate to the directory to check where is the file located the command is 
-                       cd ~/Desktop
+
+                        cd ~/Desktop
                          ⬇️
                          ls
                          ⬇️
                         cd ~/Desktop
                           ⬇️
                        pdf2john.pl 'My Locked PDF1.pdf' > hash.txt
-    Step 4 :- When this command gave output :-command not found then we run
-                            ⬇️
-              find /usr/share/john /opt/john -name 'pdf2john.pl' 2>/dev/null
+                       
+   Step 4 :- When this command gave output :-command not found then we run
+                            ⬇️ 
+                            
+             find /usr/share/john /opt/john -name 'pdf2john.pl' 2>/dev/null
                               ⬇️
                              cat hash.txt
+                             
  Step 5 :- The resulting hash1.txt file contained the hash in the standard $pdf$... format, ready to be cracked.
- Step 6 :- Now run command john hash.txt
  
+ ![Screenshot](VirtualBox_kali-linux-2026.2-virtualbox-amd64_23_09_2026_21_13_43.png)
+ 
+ Step 6 :- Now run command 
+ 
+        john hash.txt
+![Screenshot](Screenshot-3.png)
 
-                            
+--
+Step 7 :- Now capture the other two embedded flags from each of pdf 2,pdf3 by repeating the same process .
+         ![Screenshot](Screenshot-2.png)
+
+         --
+   ![Screenshot](Screenshot-4.png)
 
 
 
