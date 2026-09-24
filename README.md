@@ -121,7 +121,8 @@ Targeted pdf 2
 
 
      
- 🛡️ **SAFE** -This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only.
+ 🛡️ **SAFE** -_This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only._
+ 
 --
 
 
@@ -130,19 +131,16 @@ Targeted pdf 2
 - Networkwalks Hash-Calculator
 - Networkwalks Password Cracker
   
-     Step 1 :- Open Password Cracker to upload wordlist '.' In hash calculator the hash lines we got is not crackable in the password cracker.So,
-    Step 2 :-Now upload it and start cracking we get password match 
+     Step 1 :- Open Password Cracker to upload wordlist '.' In hash calculator the hash lines we got from PDF1 is not crackable in the password cracker.So,
+  
+    Step 2 :-Now upload it and start cracking we get password match
+  ![Screenshot](Screenshot-8.png)
+  
 ![Screenshot](Screenshot-3.png)
 
+  Step 5:- Now moved to PDF 2 :-
   
- Step 3 :-
-                  
- Step 4 :- 
-
-
-  Step 5:- Now moved to PDF 2 
-  
-  Opening Hash - calculator then I Uploaded the locked PDF to the Hash Calculator to get the hash.
+  Opening Hash-calculator then I Uploaded the locked PDF to the Hash Calculator to get the hash lines.
         The Hash Calculator supports MD5, SHA-1, SHA-256, SHA-384, and SHA-512 or extract a crackable hash from dedicated file .
         ![Screenshot](Screenshot-5.png)
         
@@ -152,11 +150,58 @@ Targeted pdf 2
 
  Step 8 :- Do same at PDF 3 to open the file by password
      ![Screenshot](Screenshot-7.png)
-      ![Screenshot](Screenshot-4.png)
+     
+  ![Screenshot](Screenshot-4.png)
 
 
+Result
+---
+## 🔐 PDF Password Cracking Report
+
+| PDF File        | Method                       | Environment    | Result                                |Level 
+|-----------------|------------------------------|--------------- |---------------------------------------|------- |
+| MyLockedPDF1.pdf | John the Ripper (CLI)       | Kali-Linux     | ✅ Password recovered🗝️,Flag captured|Medium🟡| 
+| MyLockedPDF2.pdf | John the Ripper (CLI)       |  Kali-Linux    | ✅ Password recovered, flag captured  |Medium  |
+| MyLockedPDF3.pdf | John the Ripper (CLI)       | Kali-Linux     | ✅ Password recovered, flag captured  |Medium🟡|
+| MyLockedPDF1.pdf | Networkwalks Tools          | Web-browser    | ✅ Password recovered,flag captured   |High🔴  |
+| MyLockedPDF2.pdf | Networkwalks Tools          | Web-browser    | ✅ Password recovered, flag captured  |Low 🟢  |               
+| MyLockedPDF3.pdf | Networkwalks Tools          | Web-browser    | ✅ Password recovered, flag captured  |Low 🟢  |
+
+-----------
+☑️Key Learning
+--
+- I learned how to maintain report writing during attack '.' it is very important to write in Ethical professional career.
+- I gain experience on john the Ripper tool and Networkwalks tools.
+- I learned command in kali VM.
+- Observed firsthand how a password cracker tests candidate passwords from a wordlist  by Dictionary attack against a target hash until a match is found — and how quickly this succeeds against common, weak passwords.
+- The main purpose of this project are :-
+   -  How password cracker is used for ethical purpose only with explicit permission.Never do unethical way to compromised the file because it can lead to cyber-crime.
+   -  Understand the protectiveness of the password .
+     
+   -Week 3 provided hands-on exposure to password-cracking workflows using both traditional command-line tooling and modern browser-based security tools. The project strengthened my understanding of how protected files are analyzed, how crackable hashes are extracted, how dictionary attacks work in practice, and how recovered credentials are verified in a controlled, ethical environment.  
+
+     -----
+Problem and solution 💡During project
+--
+Module 1:-When i tried to open the pdf in Vm it was difficult to copy it in the lab.Then i enable the media and select the path and run the command in vm then i was able to find the password from the locked pdfs
+
+Module 2:- I tried to crack the hash lines extracted from 'My Locked PDF1' due to  heavy wordlists the password was not found .Then i went to youtube and watched Instructor guideliness and follow the steps then i do the same steps which mentioned i was able to open the PDF1.
 
 
+⚖️ Ethical & Legal Scope
+--
+This work was performed as part of a controlled cybersecurity training lab using files provided specifically for this educational exercise.
 
+Password-cracking techniques should only ever be used against systems, files, or accounts for which you have explicit authorization. The purpose of this project was strictly to understand:
 
- 
+- Password security and hash extraction
+- Dictionary-based attack mechanics
+- Password recovery workflows
+- Ethical hacking methodology
+- Defensive security awareness
+
+  --
+  👤 Author
+  -- 
+  ANJU
+  
