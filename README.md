@@ -144,9 +144,14 @@ Targeted pdf 2
         The Hash Calculator supports MD5, SHA-1, SHA-256, SHA-384, and SHA-512 or extract a crackable hash from dedicated file .
         ![Screenshot](Screenshot-5.png)
         
- Step 6 :-Now copy the hash lines from pdf ie $pdf$...
+ Step 6 :-Now copy the hash lines from pdf ie.
+ 
+               $pdf$...
+
+ 
  Step 7 :- Now pasted the hash lines in Password Cracker .Then we opened our file by password
  ![Screenshot](Screenshot-2.png)
+
 
  Step 8 :- Do same at PDF 3 to open the file by password
      ![Screenshot](Screenshot-7.png)
