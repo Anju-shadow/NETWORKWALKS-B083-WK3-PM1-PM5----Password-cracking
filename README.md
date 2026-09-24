@@ -130,23 +130,30 @@ Targeted pdf 2
 - Networkwalks Hash-Calculator
 - Networkwalks Password Cracker
   
-     Step 1 :- Opening Hash - calculator then I Uploaded the locked PDF to the Hash Calculator to get the hash.
-        The Hash Calculator supports MD5, SHA-1, SHA-256, SHA-384, and SHA-512 or extract a crackable hash from dedicated file .
-  
-![Screenshot](Screenshot-5.png)
-
-  Step 2 :- then paste that hash into the Password Cracker to find the password.
+     Step 1 :- Open Password Cracker to upload wordlist '.' In hash calculator the hash lines we got is not crackable in the password cracker.So,
+    Step 2 :-Now upload it and start cracking we get password match 
+![Screenshot](Screenshot-3.png)
 
   
- Step 3 :- Now I  copied the hash lines extracted from file $pdf$..
-                  ![Screenshot](Screenshot-6.png)
+ Step 3 :-
                   
- Step 4 :- Now pasted the hash lines in Password Cracker to find the password 🗝️
+ Step 4 :- 
 
 
   Step 5:- Now moved to PDF 2 
-  Do the same process to find the password from hash lines.
-  ![Screenshot](Screenshot-7.png)
+  
+  Opening Hash - calculator then I Uploaded the locked PDF to the Hash Calculator to get the hash.
+        The Hash Calculator supports MD5, SHA-1, SHA-256, SHA-384, and SHA-512 or extract a crackable hash from dedicated file .
+        ![Screenshot](Screenshot-5.png)
+        
+ Step 6 :-Now copy the hash lines from pdf ie $pdf$...
+ Step 7 :- Now pasted the hash lines in Password Cracker .Then we opened our file by password
+ ![Screenshot](Screenshot-2.png)
+
+ Step 8 :- Do same at PDF 3 to open the file by password
+     ![Screenshot](Screenshot-7.png)
+      ![Screenshot](Screenshot-4.png)
+
 
 
 
