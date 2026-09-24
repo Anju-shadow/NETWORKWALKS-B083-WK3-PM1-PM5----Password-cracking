@@ -118,8 +118,12 @@ Targeted pdf 2
    ------------------------
    <h2 align="center">🃏** Module 2 — Password Cracking with Networkwalks Tools
 ------------
+
+
      
  🛡️ **SAFE** -This lab does the same job as JTR lab but Free- browser tools in web-browser🌐 without installing it.It runs in the lab with written permission by  authorized organisation to practice on given project/lab for education purpose only.
+--
+
 
    ㊙️**Tools**-
 --
@@ -142,7 +146,7 @@ Targeted pdf 2
 
   Step 5:- Now moved to PDF 2 
   Do the same process to find the password from hash lines.
-  ![Screenshot](
+  ![Screenshot](Screenshot-7.png)
 
 
 
